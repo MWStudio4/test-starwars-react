@@ -2,7 +2,7 @@ import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import { actionTypes, selectors } from '../../features/counter'
 
-const Counter: React.FC = () => {
+const People: React.FC = () => {
   const count = useSelector(selectors.getCountValue)
   const dispatch = useDispatch()
 
@@ -52,4 +52,4 @@ const Counter: React.FC = () => {
   )
 }
 
-export default Counter
+export default People
